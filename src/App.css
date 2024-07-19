@@ -1,6 +1,13 @@
+body,
+html {
+  min-height: 100vh;
+  height: 100%;
+  overflow-y: scroll;
+}
 .header {
   height: 60px;
 }
+
 .headerbtn {
   margin-right: 10px;
   padding-left: 10px;
@@ -41,7 +48,7 @@
   color: rgb(255, 255, 255);
 }
 .welcometxt label {
-  color: rgb(253, 160, 0);
+  color: hsl(16.11deg 100% 65.69%);
 }
 .loweimgtext {
   font-weight: 600;
@@ -122,11 +129,10 @@
 }
 
 .data {
-  margin-left: 140px;
   display: flex;
   position: relative;
-  margin-right: 120px;
-  height: 70px;
+  height: 80px;
+  padding-left: 120px;
   margin-top: 30px;
 }
 
@@ -140,4 +146,91 @@
   color: #fff;
   border: #fff;
   padding-bottom: 13px;
+}
+
+.last {
+  margin-top: 100px;
+}
+.allrm {
+  margin-left: 100px;
+  padding: 10px;
+  padding-left: 5px;
+  margin-right: 1300px;
+  text-align: center;
+  margin-top: 20px;
+}
+.allrm a {
+  color: hsl(16.11deg 100% 65.69%);
+  font-size: large;
+}
+.homenametitile {
+  text-align: center;
+  font-size: 50px;
+}
+
+.homenametitile #hs {
+  color: hsl(183.13deg 100% 26.27%);
+}
+.homenametitile #hh {
+  color: hsl(16.11deg 100% 65.69%);
+}
+
+.upperservice {
+  position: relative;
+  display: flex;
+}
+.upperservice {
+  display: flex;
+  position: relative;
+  height: 70px;
+}
+
+.airconimg {
+  text-align: center;
+  margin: 20px;
+  align-items: center;
+}
+.firstservice {
+  border: solid black 1px;
+  border-radius: 7px;
+  display: flex;
+  position: relative;
+}
+.servicesection {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.firstair {
+  color: hsl(183.13deg 100% 26.27%);
+  font-weight: 700;
+
+  font-size: 20px;
+}
+.airsml {
+  font-size: 15px;
+}
+
+.secondservice {
+  border: solid black 1px;
+  border-radius: 7px;
+  margin-right: 80px;
+  display: flex;
+  margin-left: 50px;
+}
+.secnimg {
+  margin-left: 10px;
+  margin: 20px;
+}
+.upperservice {
+  margin-top: 50px;
+}
+
+.footer {
+  height: 50px;
+  background-color: hsl(0deg 0% 26.67%);
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+  padding-top: 25px;
 }
