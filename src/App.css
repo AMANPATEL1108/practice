@@ -1,38 +1,143 @@
-.App {
+.header {
+  height: 60px;
+}
+.headerbtn {
+  margin-right: 10px;
+  padding-left: 10px;
+  margin-left: 900px;
+  text-align: right;
   text-align: center;
+  margin-top: -25px;
+}
+.headerbtn a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: large;
+}
+.headertitle {
+  color: rgb(105, 160, 209);
+  height: 70px;
+  font-size: xx-large;
+  margin-left: 150px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* src/component/Home.css */
+.home-background {
+  height: 500px; /* Set a height to see the background image */
+  background-image: url("../public/asset/img/hotel.webp"); /* Correct path for public folder */
+  background-size: cover;
+  background-position: center;
+  border: solid 2px rgb(184, 184, 184);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.innerimgtext {
+  padding-top: 230px;
+  padding-bottom: 200px;
+  padding-left: 500px;
+}
+.welcometxt {
+  font-weight: 600;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+.welcometxt label {
+  color: rgb(253, 160, 0);
+}
+.loweimgtext {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.outer1 {
+  background-color: hsl(0deg 0% 97.65%);
+  width: 250px;
+  padding-left: 10px;
+  border-radius: 7px;
+  color: hsl(222.35deg 20% 50%);
+
+  border: solid 1px black;
+}
+.inner1 {
+  background-color: hsl(0deg 0% 100%);
+  border-radius: 7px;
+  font-weight: 600;
+
+  margin-top: 10px;
+  border: solid 1px black;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  color: hsl(0deg 0.84% 46.67%);
+
+  font-weight: 400;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.outer2 {
+  background-color: hsl(0deg 0% 97.65%);
+  font-weight: 600;
+
+  border-radius: 7px;
+  margin-left: 150px;
+  width: 250px;
+  padding-left: 10px;
+  color: hsl(222.35deg 20% 50%);
+
+  border: solid 1px black;
+}
+.inner2 {
+  padding-left: 10px;
+  margin-right: 10px;
+  border-radius: 7px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: hsl(0deg 0.84% 46.67%);
+
+  font-weight: 400;
+  background-color: hsl(0deg 0% 100%);
+
+  border: solid 1px black;
+}
+
+.outer3 {
+  background-color: hsl(0deg 0% 97.65%);
+  font-weight: 600;
+
+  margin-left: 150px;
+  width: 250px;
+  padding-left: 10px;
+  border-radius: 7px;
+  border: solid 1px black;
+  color: hsl(222.35deg 20% 50%);
+}
+.inner3 {
+  border-radius: 7px;
+  padding-left: 10px;
+  font-weight: 400;
+  background-color: hsl(0deg 0% 100%);
+  color: hsl(0deg 0.84% 46.67%);
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: solid 1px black;
+}
+
+.data {
+  margin-left: 140px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+  margin-right: 120px;
+  height: 70px;
+  margin-top: 30px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.data .homebtnsearchroom {
+  height: 20px;
+  margin-left: 30px;
+  border-radius: 7px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: hsl(183.13deg 100% 26.27%);
+  color: #fff;
+  border: #fff;
+  padding-bottom: 13px;
 }
