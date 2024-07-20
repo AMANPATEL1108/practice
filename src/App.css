@@ -6,6 +6,7 @@ html {
 }
 .header {
   height: 60px;
+  border: solid black 1px;
 }
 
 .headerbtn {
@@ -26,6 +27,7 @@ html {
   height: 70px;
   font-size: xx-large;
   margin-left: 150px;
+  font-weight: 600;
 }
 
 /* src/component/Home.css */
@@ -233,4 +235,124 @@ html {
   font-size: 15px;
   margin-top: 10px;
   padding-top: 25px;
+}
+.dateInput {
+  margin-left: auto;
+  margin-right: auto;
+  height: 2.5em;
+  width: 12.5em;
+  border-radius: 2.5em;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  -webkit-filter: drop-shadow(1px 1px 10px #000);
+  filter: drop-shadow(7px 7px 10px #00000059);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(77, 77, 77);
+  text-align: center;
+  font-size: 14px;
+  outline: 2px solid rgba(0, 0, 0, 0);
+  transition: outline-offset 0.5s ease, outline-color 0.5s ease,
+    height 0.5s ease, width 0.5s ease, filter 0.5s ease;
+}
+
+.dateInput:focus {
+  outline-offset: 0.5em;
+  outline-color: rgba(0, 0, 0, 0.228);
+  transition: 0.2s;
+  height: 3em;
+  width: 13em;
+  -webkit-filter: drop-shadow(1px 1px 10px #000);
+  filter: drop-shadow(-7px 7px 10px #00000059);
+}
+
+.dateInput::placeholder {
+  padding-left: 0.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transform: translateX(-6px);
+  transition: transform 0.5s ease;
+}
+
+.dateInput:focus::placeholder {
+  transform: translateX(-85px);
+  transition: 0.5s;
+}
+.outerlogindiv {
+  margin-left: 500px;
+  margin-top: 50px;
+  height: 500px;
+  width: 500px;
+  border: solid black 1px;
+  border-radius: 12px;
+}
+
+.logintitle {
+  font-size: 50px;
+  margin-left: 200px;
+  color: hsl(183.13deg 100% 26.27%);
+  font-weight: 500;
+}
+
+.labelemail {
+  margin-left: 50px;
+  margin-top: 50px;
+  font-weight: 1000;
+  color: hsl(183.13deg 100% 26.27%);
+}
+.EnterEmail {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.EnterEmail input {
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  border-width: 1px;
+  background-color: hsl(218.18deg 91.67% 95.29%);
+  padding-left: 10px;
+}
+.labelpassword {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-weight: 1000;
+  color: hsl(183.13deg 100% 26.27%);
+}
+.EnterPassword {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.EnterPassword input {
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  border-width: 1px;
+  background-color: hsl(218.18deg 91.67% 95.29%);
+  padding-left: 10px;
+}
+.Loginbtn {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.Loginbtn button {
+  cursor: pointer;
+  width: 415px;
+  height: 40px;
+  border-radius: 5px;
+  border-width: 1px;
+  background-color: hsl(218.18deg 91.67% 95.29%);
+  padding-left: 10px;
+  background-color: hsl(183.13deg 100% 26.27%);
+}
+.Donthaveac {
+  font-weight: 500;
+  margin-top: 30px;
+  font-size: small;
+  margin-left: 50px;
+}
+.donthaveactoregister {
+  text-decoration: none;
+  font-size: small;
+  weight: 50px;
+  color: hsl(183.13deg 100% 26.27%);
 }

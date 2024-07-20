@@ -119,7 +119,9 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="last"><footer></footer></div>
+      <div className="last">
+        <footer></footer>
+      </div>
     </div>
   );
 };
