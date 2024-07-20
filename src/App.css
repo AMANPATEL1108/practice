@@ -227,15 +227,6 @@ html {
   margin-top: 50px;
 }
 
-.footer {
-  height: 40px;
-  background-color: hsl(0deg 0% 26.67%);
-  align-items: center;
-  text-align: center;
-  font-size: 15px;
-  margin-top: 100px;
-  padding-top: 25px;
-}
 .dateInput {
   margin-left: auto;
   margin-right: auto;
@@ -403,4 +394,81 @@ html {
   width: 500px;
   border: solid black 1px;
   border-radius: 12px;
+}
+.allroomtitle {
+  margin-top: 40px;
+  font-size: 50px;
+  margin-left: 600px;
+  color: hsl(183.13deg 100% 26.27%);
+  font-weight: 500;
+}
+.roompagedata {
+  margin-top: 60px;
+}
+.filterroomtype {
+  margin-top: 0px;
+  display: flex;
+  margin-left: 130px;
+  color: hsl(183.13deg 100% 26.27%);
+  font-weight: 500;
+}
+.filterall {
+  margin-left: 5px;
+  border: solid black 1px;
+  padding: 2px;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* .footer {
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 100px;
+ 
+} */
+.footer {
+  position: fixed;
+  left: 0;
+  padding-top: 25px;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background-color: hsl(0deg 0% 26.67%);
+  color: white;
+  text-align: center;
+}
+.findbooking {
+  margin-top: 40px;
+  font-size: 50px;
+  margin-left: 600px;
+  color: hsl(183.13deg 100% 26.27%);
+  font-weight: 500;
+}
+
+.findbookinginputbtn {
+  margin-top: 100px;
+  display: flex;
+  position: relative;
+  margin-left: 600px;
+  width: 700px;
+}
+.findbookinginput {
+  padding: 5px;
+  width: 250px;
+  border-radius: 7px;
+  border-width: 1px;
+  height: 20px;
+  padding-left: 10px;
+}
+.findroombtn {
+  height: 35px;
+  margin-left: 30px;
+  border-radius: 3px;
+  width: 70px;
+  background-color: hsl(183.13deg 100% 26.27%);
+  color: #fff;
+  border: #fff;
+  margin-left: 10px;
 }
