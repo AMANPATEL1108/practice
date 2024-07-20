@@ -33,7 +33,10 @@ export const Login = () => {
           </div>
           <div className="Donthaveac">
             Don't have an account?
-            <a className="donthaveactoregister" href=""> Register </a>
+            <a className="donthaveactoregister" href="">
+              {" "}
+              Register{" "}
+            </a>
           </div>
         </div>
 

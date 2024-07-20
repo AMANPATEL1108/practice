@@ -228,12 +228,12 @@ html {
 }
 
 .footer {
-  height: 50px;
+  height: 40px;
   background-color: hsl(0deg 0% 26.67%);
   align-items: center;
   text-align: center;
   font-size: 15px;
-  margin-top: 10px;
+  margin-top: 100px;
   padding-top: 25px;
 }
 .dateInput {
@@ -281,10 +281,16 @@ html {
 .outerlogindiv {
   margin-left: 500px;
   margin-top: 50px;
-  height: 500px;
+  height: 400px;
   width: 500px;
   border: solid black 1px;
   border-radius: 12px;
+}
+.registertitle {
+  font-size: 50px;
+  margin-left: 180px;
+  color: hsl(183.13deg 100% 26.27%);
+  font-weight: 500;
 }
 
 .logintitle {
@@ -296,13 +302,13 @@ html {
 
 .labelemail {
   margin-left: 50px;
-  margin-top: 50px;
+  margin-top: 10px;
   font-weight: 1000;
   color: hsl(183.13deg 100% 26.27%);
 }
 .EnterEmail {
   margin-left: 50px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 .EnterEmail input {
   width: 400px;
@@ -314,13 +320,12 @@ html {
 }
 .labelpassword {
   margin-left: 50px;
-  margin-top: 30px;
+  margin-top: 10px;
   font-weight: 1000;
   color: hsl(183.13deg 100% 26.27%);
 }
 .EnterPassword {
   margin-left: 50px;
-  margin-top: 20px;
 }
 .EnterPassword input {
   width: 400px;
@@ -353,6 +358,49 @@ html {
 .donthaveactoregister {
   text-decoration: none;
   font-size: small;
-  weight: 50px;
+
   color: hsl(183.13deg 100% 26.27%);
+}
+.labelname {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-weight: 1000;
+  color: hsl(183.13deg 100% 26.27%);
+}
+.EnterName input {
+  width: 400px;
+  height: 30px;
+  margin-left: 50px;
+  border-radius: 5px;
+  border-width: 1px;
+  background-color: hsl(218.18deg 91.67% 95.29%);
+  padding-left: 10px;
+}
+
+.labelNumber {
+  margin-left: 50px;
+  margin-top: 10px;
+  font-weight: 1000;
+  color: hsl(183.13deg 100% 26.27%);
+}
+.EnterNumber input {
+  width: 400px;
+  height: 30px;
+  margin-left: 50px;
+  border-radius: 5px;
+  border-width: 1px;
+  background-color: hsl(218.18deg 91.67% 95.29%);
+  padding-left: 10px;
+}
+.outerregisterationdiv {
+  .no-scroll {
+    overflow: hidden;
+  }
+
+  margin-left: 500px;
+  margin-top: 60px;
+  height: 500px;
+  width: 500px;
+  border: solid black 1px;
+  border-radius: 12px;
 }
